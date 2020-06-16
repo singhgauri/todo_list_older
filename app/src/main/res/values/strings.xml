@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My ToDos</string>
+    <string name="image_des">My Image</string>
+    <string name="Take_picture">Take Picture</string>
+    <string name="Add_des">Add Description</string>
+    <string name="Add_name">Add Name</string>
+    <string name="Update">Update</string>
+    <string name="Save">Save</string>
+    <string name="Delete_All">Delete All Items</string>
+    <string name="Reminder">Reminder</string>
+    <string name="Name">Name</string>
+    <string name="Description">Description</string>
+    <string name="Date">1</string>
+    <string name="setReminder">Set Reminder</string>
+    <string name="cancelReminder">Cancel Reminder</string>
+    <string name="inputDate">Input date</string>
+    <string name="FirstMessage">Go to your TODOs</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+    android:gravity="center"
+    android:weightSum="6"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:src="@drawable/todo_image"
+        android:id="@+id/todo_image"
+        android:contentDescription="@string/FirstMessage">
+
+    </ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:id="@+id/startButton"
+        android:text="@string/FirstMessage"
+        android:layout_gravity="center"
+        android:textStyle="normal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+    </Button>
+
+</LinearLayout>
